@@ -1,0 +1,23 @@
+.input {
+  display: block;
+  height: 60px;
+  padding: 0 30px;
+
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 30px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 60px;
+  color: #ffffff;
+
+  transition: color 0.1s ease-in;
+
+  &:focus {
+    background-color: rgba(0, 0, 0, 1);
+  }
+}
+
+.input::placeholder {
+  color: #ffffff;
+}
